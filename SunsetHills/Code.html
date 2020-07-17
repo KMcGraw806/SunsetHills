@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Custom Style CSS File -->
     <link rel="stylesheet" href="css/custom.css">
+    <link href="css/prism (solarized light).css" rel="stylesheet" />
 
     <style>
         .title {
@@ -115,11 +116,11 @@
                 </nav>
 
                 <div class="side-footer text-white w-100">
-                    <ul class="social-icons-simple">
+                    <!--<ul class="social-icons-simple">
                         <li class="side-menu-icons"><a href="javascript:void(0)"><i class="fab fa-facebook-f color-white"></i> </a> </li>
                         <li class="side-menu-icons"><a href="javascript:void(0)"><i class="fab fa-instagram color-white"></i> </a> </li>
                         <li class="side-menu-icons"><a href="javascript:void(0)"><i class="fab fa-twitter color-white"></i> </a> </li>
-                    </ul>
+                    </ul>-->
                     <p class="text-white">&copy; 2020 Kayla McGraw</p>
                 </div>
             </div>
@@ -133,19 +134,45 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="mt-5">The Title of the Exercise</h1>
-                    <p class="lead">You can customize the template colors</p>
-                    <ul class="list-unstyled">
-                        <li>This page is for a description of the Javascript exercise</li>
-                        <li>You should include information about what the code does</li>
+                    <h1 class="mt-5 code-title">Sunset Hills</h1>
+                    <ul class="list-unstyled code-list">
+                        <li>If you would like to see how Sunset Hills works</li>
+                        <li>look no further than the block below!</li>
                     </ul>
                 </div>
+            </div>
+			<hr />
+            <div class="row">
+                <pre id="code-output" class="line-numbers language-javascript" data-src="/js/JavaScript.js">
+<code>let bldg1 = parseInt($("#bldgHt1").val());
+let bldg2 = parseInt($("#bldgHt2").val());
+let bldg3 = parseInt($("#bldgHt3").val());
+let bldg4 = parseInt($("#bldgHt4").val());
+let bldg5 = parseInt($("#bldgHt5").val());
+let bldg6 = parseInt($("#bldgHt6").val());
+
+let bldgArray = [bldg1, bldg2, bldg3, bldg4, bldg5, bldg6];
+
+let output = new Array();
+let tallest = 0;
+let currentBldg = 0;
+for (let loop = 0; loop <= 5; loop++) {
+currentBldg = bldgArray[loop];
+
+if (currentBldg > tallest) {
+output.push(currentBldg);
+tallest = currentBldg;
+}
+
+$("#resultsOutput").html(`With the numbers given, <b>${output.length}</b> buildings can see the sunset. <br /><br /> The lucky suckers that get that beautiful view are <b>${output.toString().replace(/,/g, ", ")}</b>`);
+}</code>
+                </pre>
             </div>
         </div>
     </section>
 
     <!-- Footer starts -->
-    <footer class="p-half bg-white fixed-bottom">
+    <!--<footer class="p-half bg-white fixed-bottom">
         <div class="container">
             <div class="row">
                 <div class="contact-info text-center">
@@ -164,7 +191,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>-->
     <!-- Footer ends -->
     <!--Animated Cursor-->
     <div id="animated-cursor">
@@ -200,7 +227,7 @@
     <!-- custom script -->
     <script src="js/contact_us.js"></script>
     <script src="js/script.js"></script>
-
+    <script src="js/prism (solarized light).js"></script>
 
 </body>
 </html>

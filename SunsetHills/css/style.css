@@ -65,8 +65,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #666666;
-    font-weight: 300;
+    color: #202020;
+    font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.5px;
     overflow-x: hidden;
@@ -81,7 +81,7 @@ ol, ul {
 
 section, .section-padding {
     position: relative;
-    padding: 7.5rem 0;
+    padding: 5rem 0;
     overflow: hidden;
 }
 
@@ -117,7 +117,7 @@ p {
     margin: 0;
     padding: 0;
     font-size: 13px;
-    color: #535353;
+    color: #202020;
 }
 
 .line-height-heading {
@@ -1463,7 +1463,7 @@ button {
 .transparent-bg.fixed-menu .navbar-nav .nav-link, .center-logo.fixed-menu .navbar-nav .nav-link,
 .transparent-bg.black .navbar-nav .nav-link, .center-logo.black .navbar-nav .nav-link,
 .bg-white2.black .navbar-nav .nav-link, .bg-white2.black.fixed-menu .navbar-nav .nav-link {
-    color: #18191d;
+    color: #202020;
 }
 
 .bg-white2.box-nav.black .navbar-nav .nav-link, .bg-white2.box-nav.black.fixed-menu .navbar-nav .nav-link {

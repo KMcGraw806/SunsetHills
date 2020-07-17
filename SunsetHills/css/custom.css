@@ -1,5 +1,6 @@
 /*-- Use For Custom Styling --*/
 body {
+	background: linear-gradient(to left bottom, #1D9A85A3, #efb0e5c2) fixed;
 }
 
 .btnWide {
@@ -19,37 +20,32 @@ h1 {
 .output {
 	font-size: 20px;
 }
-/*.nav-box-shadow {
-	-webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.15);
-	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.15);
+.results {
+	margin-top: 35px;
 }
 
-.nav-item {
-	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
-	height: 45.19px;
+.container {
+	margin-top: 50px;
 }
 
-.navbar-brand {
-	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
-}
-
-.navbar.navbar-expand-lg.navbar-dark.static-top.nav-box-shadow {
-	height: 70px;
-}
-
-div#navbarResponsive.collapse.navbar-collapse {
+.hyperlink {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
+	color: #202020;
 }
 
-a.nav-link.nav-color {
-	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
-	margin: 0px 4.8px;
-	padding-top: 9.6px;
-	padding-bottom: 9.6px;
-	padding-left: 20.8px;
-	padding-right: 20.8px;
-}*/
+	.hyperlink:hover {
+		color: antiquewhite;
+	}
+
+.list-unstyled {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #202020
+}
+.code-title {
+	margin-top: .5rem!important;
+}
+.code-list {
+	margin-top: 10px;
+}
